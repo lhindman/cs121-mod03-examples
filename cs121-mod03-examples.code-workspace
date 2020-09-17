@@ -3,6 +3,24 @@
 		{
 			"path": "MyApp"
 		},
+		{
+			"path": "String"
+		},
+		{
+			"path": "Random"
+		},
+		{
+			"path": "Math"
+		},
+		{
+			"path": "Formatting"
+		},
+		{
+			"path": "Enum"
+		},
+		{
+			"path": "Wrappers"
+		}
 	],
 	"settings": {
 		"files.exclude": {
