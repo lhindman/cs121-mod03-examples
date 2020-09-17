@@ -1,2 +1,2 @@
-# basic-java-workspace
-This is a template for creating a basic Java workspace
+# cs121-mod03-examples
+
