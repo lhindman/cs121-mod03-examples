@@ -13,7 +13,8 @@ public class RandomNumbers
 	public static void main(String[] args)
 	{
 		// Try it with a seed:  new Random(12345);
-		Random generator = new Random();
+		Random generator; // Declare Random variable
+		generator = new Random(); // instantiate Random object
 		int num1;
 		double num2;
 
