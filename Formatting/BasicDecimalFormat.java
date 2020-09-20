@@ -9,12 +9,12 @@ public class BasicDecimalFormat
 {
 	public static void main(String[] args)
 	{
-		DecimalFormat fmt = new DecimalFormat("0.###");
+		DecimalFormat fmt = new DecimalFormat("$0.###");
 		double amount = 110.3424;
 		System.out.println("Amount: " + fmt.format(amount));
 
-		double percent = .8845;
-		System.out.println("Percent: " + fmt.format(percent));
+		double tax = 0.06;
+		System.out.println("Idaho Tax: " + fmt.format(tax));
 
 		fmt.setRoundingMode(RoundingMode.CEILING);
 		System.out.println("Amount: " + fmt.format(amount));

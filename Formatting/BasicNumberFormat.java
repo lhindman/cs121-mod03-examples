@@ -1,4 +1,5 @@
 import java.text.NumberFormat;
+import java.util.Locale;
 
 /**
  * Shows basic usage of NumberFormat.
@@ -16,7 +17,7 @@ public class BasicNumberFormat
 		double percent = .8845;
 		System.out.println("Percent: " + percentFmt.format(percent));
 
-		/* currencyFmt = NumberFormat.getCurrencyInstance(Locale.UK); */
-		/* System.out.println("Amount: " + currencyFmt.format(amount)); */
+		currencyFmt = NumberFormat.getCurrencyInstance(Locale.UK);
+		System.out.println("Amount: " + currencyFmt.format(amount));
 	}
 }

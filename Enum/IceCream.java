@@ -14,7 +14,8 @@ public class IceCream
 		COFFEE,
 		ROCKY_ROAD,
 		MINT_CHOCOLATE_CHIP,
-		COOKIE_DOUGH
+		COOKIE_DOUGH,
+		HUCKLEBERRY
 	}
 
 	/**
@@ -24,7 +25,7 @@ public class IceCream
 
 		Flavor cone1, cone2, cone3;
 
-		cone1 = Flavor.ROCKY_ROAD;
+		cone1 = Flavor.HUCKLEBERRY;
 		cone2 = Flavor.CHOCOLATE;
 
 		System.out.println("cone1 value: " + cone1);
