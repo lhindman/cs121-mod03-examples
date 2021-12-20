@@ -10,29 +10,19 @@ Steps to Clone Examples
 4. Browse to the location in your development environment where you want to store the repostory and click Select Repository Location.
 5. When prompted, Open the repository then Open the workspace
 
-## Expressions Experimentation
-1. Open *ConversionFun.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
-    - Add code to output Volume 3 where volume3 is calculated as shown below. What is the result and why?  
+## Enum Experimentation
+1. Open *IceCream.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
+    - Add the following code to the end of the main() method. What is the result and why?  
     ```
-    volume3 = PI * radiusCubed * (4 / 3);  
+    boolean result = Flavor.HUCKLEBERRY.ordinal() > Flavor.CHOCOLATE.ordinal();
+	System.out.printf("\n\n%s is greater than %s: %b\n",Flavor.HUCKLEBERRY, Flavor.CHOCOLATE, result);  
     ```
- 
-    - Add code to output Volume 4 where volume4 is calculated as shown below. What is the result and why?  
+## Formatting Experimentation
+1. Open *BasicDecimalFormat.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
+    - Add the following code near the end of the main() method. What is the result and why?  
     ```
-    volume4 = 4 / (3 * PI) * radiusCubed;  
-    ```
-            
-1. Open *CookieFun.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
-    - Update the cookiesPerFriend expression as shown below. What is the result and why?  
-    ```
-    cookiesPerFriend = (double) (numCookies / numFriends);  
-    ```
-
-## Variable Experimentation
-1. Open *Geometry.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
-    - Change the declaration for sides from an int to a double as shown below. What is the result and why?  
-    ```
-    double sides = 7; 
+    System.out.printf("The circle's area using printf(): %.4f\n", area);
+    System.out.printf("The circle's circumference using printf(): %10.3f\n", circumference);
     ```
             
     - Modify the declaration for sides from to use the final operator as shown below. What is the result and why?  
