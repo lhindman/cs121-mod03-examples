@@ -24,18 +24,18 @@ Steps to Clone Examples
     System.out.printf("The circle's area using printf(): %.4f\n", area);
     System.out.printf("The circle's circumference using printf(): %10.3f\n", circumference);
     ```
+
             
-    - Modify the declaration for sides from to use the final operator as shown below. What is the result and why?  
+1. Open *BasicDecimalFormat.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
+    - Modify the DecimalFormat object to use the pattern "$0.000" as shown below. What is the result and why?  
     ```
-    final double sides = 7;
+    DecimalFormat fmt = new DecimalFormat("$0.000");
     ```
-            
-1. Open *PianoKeys.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
-    - Modify the declaration for keys from to use the final operator as shown below. What is the result and why?  
+     
+    - Modify the DecimalFormat object to use the pattern "$00000.000000" as shown below. What is the result and why?  
     ```
-    final int keys = 88; 
-    ```
-            
+    DecimalFormat fmt = new DecimalFormat("$00000.000000");
+    ``` 
 ## String Experimentation
 1. Open *Lincoln.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
     - Declare a variable called quote to hold a String value as shown below. What is the result and why?  
