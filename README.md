@@ -18,7 +18,7 @@ Steps to Clone Examples
 	System.out.printf("\n\n%s is greater than %s: %b\n",Flavor.HUCKLEBERRY, Flavor.CHOCOLATE, result);  
     ```
 ## Formatting Experimentation
-1. Open *BasicDecimalFormat.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
+1. Open *CircleStatsDecimalFormat.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
     - Add the following code near the end of the main() method. What is the result and why?  
     ```
     System.out.printf("The circle's area using printf(): %.4f\n", area);
