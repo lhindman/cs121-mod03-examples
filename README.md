@@ -31,7 +31,7 @@ Steps to Clone Examples
 
             
 1. Open *BasicDecimalFormat.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
-    - Modify the DecimalFormat object to use the pattern "$0.000" as shown below. What is the result and why?  
+    - Modify the DecimalFormat object to use the pattern "$0.000" as shown below. Compare the output against the original "$0.###" pattern. What is the result and why?  
     ```
     DecimalFormat fmt = new DecimalFormat("$0.000");
     ```
@@ -41,59 +41,52 @@ Steps to Clone Examples
     DecimalFormat fmt = new DecimalFormat("$00000.000000");
     ``` 
 ## String Experimentation
-1. Open *Lincoln.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
-    - Declare a variable called quote to hold a String value as shown below. What is the result and why?  
+1. Open *StringFun.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
+    - Experiment with different values of the index character. Add a print statement to the index of the character in the console as shown below. What is the result and why?  
     ```
-    String quote;  
-    System.out.println("Whatever you are, be a good one.");  
+    int space = phrase.indexOf(' ');
+    System.out.println("Character index is: " + space);
+    ```
+    - Change the index character to one that doesn't exist in the phrase. What value is returned by the indexOf() method and what result does this have on the rest of the program? 
+    ```
+    int space = phrase.indexOf('z');
+    System.out.println("Character index is: " + space);
+    ```    
+
+## Random Experimentation
+1. Open *RandomNumbers.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
+    - Run the prgram three times and record the values generated each time.
+
+    - Modify the program to instantiate the Random object using a seed value as shown below. Run the prgram three times and record the values generated each time. What is the result and why?
+    ```
+    generator = new Random(12345);
     ```
 
-    - Initialize the quote variable using the existing text as shown below. What is the result and why?  
+## Math Experimentation
+1. Open *Quadratic.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
+    - Run the program with the values 2, 16 and 3 for a, b and c respectively and record the results.
+    - Modify the program to support reading double values from the user by replacing the nextInt() methods calls with nextDouble() as shown below.  What is the result and why?
     ```
-    String quote;  
-    quote = "Whatever you are, be a good one.";
-    System.out.println("Whatever you are, be a good one.");  
+    System.out.print("Enter the coefficient of x squared: ");
+    a = scan.nextDouble();
+    System.out.print("Enter the coefficient of x: ");
+    b = scan.nextDouble();
+    System.out.print("Enter the constant: ");
+    c = scan.nextDouble();
+    ```
+    - Modify the program by casting the value returned by nextDouble() to an int as shown below.  Run the program with the values 2.5, 16.8, 3.2 for a, b and c respectively. Compare the results with those recorded earlier. What are the results and why?
+    ```
+    System.out.print("Enter the coefficient of x squared: ");
+    a = (int) scan.nextDouble();
+    System.out.print("Enter the coefficient of x: ");
+    b = (int) scan.nextDouble();
+    System.out.print("Enter the constant: ");
+    c = (int) scan.nextDouble();
     ```
     
-    - Update the final println() statement to use the String variable instead of the String literal. What is the result and why?  
+    - Remove the cast and change the declaration for a, b and c from int to double as shown below. Run the program with the values 2.5, 16.8, 3.2 for a, b and c respectively. Compare the results with those recorded earlier. What are the results and why?
     ```
-    String quote;  
-    quote = "Whatever you are, be a good one.";
-    System.out.println(quote);  
+    double a, b, c; 
     ```
-1. Open *Facts.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
-    - Declare a variable called dialingCode to hold a int value as shown below. What is the result and why?  
-    ```
-    int dialCode;  
-    System.out.println("Dialing code for Antarctica: " + 672);  
-    ```
-
-    - Initialize the dialCode variable as shown below. What is the result and why?  
-    ```
-    int dialCode;  
-    dialCode = 672;
-    System.out.println("Dialing code for Antarctica: " + 672);  
-    ```
-    
-    - Update the final println() statement to use the int variable instead of the hardcoded value. What is the result and why?  
-    ```
-    int dialCode;  
-    dialCode = 672;
-    System.out.println("Dialing code for Antarctica: " + dialCode);  
-    ```
-
-## User Input Experimentation
-1. Open *Echo.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
-    - Modify the line that reads input using the **nextLine()** Scanner method to use the **next()** Scanner method as shown below. What is the result and why?
-    ```
-    message = scan.next();
-    ```
-
-1. Open *Milage.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
-    - When prompted for number of miles enter: **12.0**  What is the result and why?  
-
-    - When prompted for number of miles enter: **12**, when prompted for the gallons of fuel used enter: **two**  What is the result and why?
-
-    - When prompted for number of miles enter: **12**, when prompted for the gallons of fuel used enter: **2**  What is the result and why?
 
 
