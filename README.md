@@ -15,7 +15,11 @@ Steps to Clone Examples
     - Add the following code to the end of the main() method. What is the result and why?  
     ```
     boolean result = Flavor.HUCKLEBERRY.ordinal() > Flavor.CHOCOLATE.ordinal();
-	System.out.printf("\n\n%s is greater than %s: %b\n",Flavor.HUCKLEBERRY, Flavor.CHOCOLATE, result);  
+    System.out.printf("\n\n%s is greater than %s: %b\n",Flavor.HUCKLEBERRY, Flavor.CHOCOLATE, result);  
+    ```
+    - Modify the printf statement to use '%n' in place of '\n' as shown below. What is the difference between the %n format specifier and the \n escape character.   
+    ```
+    System.out.printf("%n%n%s is greater than %s: %b%n",Flavor.HUCKLEBERRY, Flavor.CHOCOLATE, result); 
     ```
 ## Formatting Experimentation
 1. Open *CircleStatsDecimalFormat.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
