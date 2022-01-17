@@ -1,5 +1,7 @@
 # CS121 - Module 3 - Using Classes and Objects Guided Experimentation
-The purpose of this guided experimentation is to provide students with an opportunity to experiment with the code examples presented in the lecture. It is important to keep detailed observation notes as you work through the experiments below. These observations will be useful to you as you complete the labs and you will be allowed to reference them on open book / open note quizzes. You will not be required to turn in your observations.
+The purpose of this guided experimentation is to provide students with an opportunity to experiment with the code examples presented in the lecture. It is important to keep detailed observation in your coding journal as you work through the experiments below. These observations will be useful to you as you complete the labs and you will be allowed to reference them on open book / open note quizzes.  
+
+***You are not required to turn in your observations.***
 ## Getting Started
 To get started on this activity, please clone this repository into your development environment  
 
