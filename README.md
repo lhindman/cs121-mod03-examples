@@ -11,7 +11,7 @@ Steps to Clone Examples
 2. Open VSCode, click the Source Control icon then click Clone Repository.
 3. Paste the repo URL into the "Provide repository URL" field and press Enter.
 4. Browse to the location in your development environment where you want to store the repostory and click Select Repository Location.
-5. When prompted, Open the repository then Open the workspace.
+5. When prompted, Open the repository then **[Open the workspace](images/open-examples-workspace.png)**.
 
 ## Enum Experimentation
 1. Open *IceCream.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
