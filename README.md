@@ -13,36 +13,6 @@ Steps to Clone Examples
 4. Browse to the location in your development environment where you want to store the repostory and click Select Repository Location.
 5. When prompted, Open the repository then **[Open the workspace](images/open-examples-workspace.png)**.
 
-## Enum Experimentation
-1. Open *IceCream.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
-    - Add the following code to the end of the main() method. What is the result and why?  
-    ```
-    boolean result = Flavor.HUCKLEBERRY.ordinal() > Flavor.CHOCOLATE.ordinal();
-    System.out.printf("\n\n%s is greater than %s: %b\n",Flavor.HUCKLEBERRY, Flavor.CHOCOLATE, result);  
-    ```
-    - Modify the printf statement to use '%n' in place of '\n' as shown below. What is the difference between the %n format specifier and the \n escape character.   
-    ```
-    System.out.printf("%n%n%s is greater than %s: %b%n",Flavor.HUCKLEBERRY, Flavor.CHOCOLATE, result); 
-    ```
-## Formatting Experimentation
-1. Open *CircleStatsDecimalFormat.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
-    - Add the following code near the end of the main() method. What is the result and why?  
-    ```
-    System.out.printf("The circle's area using printf(): %.4f\n", area);
-    System.out.printf("The circle's circumference using printf(): %10.3f\n", circumference);
-    ```
-
-            
-1. Open *BasicDecimalFormat.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
-    - Modify the DecimalFormat object to use the pattern "$0.000" as shown below. Compare the output against the original "$0.###" pattern. What is the result and why?  
-    ```
-    DecimalFormat fmt = new DecimalFormat("$0.000");
-    ```
-     
-    - Modify the DecimalFormat object to use the pattern "$00000.000000" as shown below. What is the result and why?  
-    ```
-    DecimalFormat fmt = new DecimalFormat("$00000.000000");
-    ``` 
 ## String Experimentation
 1. Open *StringFun.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
     - Experiment with different values of the index character. Add a print statement to the index of the character in the console as shown below. What is the result and why?  
@@ -54,8 +24,7 @@ Steps to Clone Examples
     ```
     int space = phrase.indexOf('z');
     System.out.println("Character index is: " + space);
-    ```    
-
+    ```
 ## Random Experimentation
 1. Open *RandomNumbers.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
     - Run the prgram three times and record the values generated each time.
@@ -91,5 +60,41 @@ Steps to Clone Examples
     ```
     double a, b, c; 
     ```
+
+## Formatting Experimentation
+1. Open *CircleStatsDecimalFormat.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
+    - Add the following code near the end of the main() method. What is the result and why?  
+    ```
+    System.out.printf("The circle's area using printf(): %.4f\n", area);
+    System.out.printf("The circle's circumference using printf(): %10.3f\n", circumference);
+    ```
+
+            
+1. Open *BasicDecimalFormat.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
+    - Modify the DecimalFormat object to use the pattern "$0.000" as shown below. Compare the output against the original "$0.###" pattern. What is the result and why?  
+    ```
+    DecimalFormat fmt = new DecimalFormat("$0.000");
+    ```
+     
+    - Modify the DecimalFormat object to use the pattern "$00000.000000" as shown below. What is the result and why?  
+    ```
+    DecimalFormat fmt = new DecimalFormat("$00000.000000");
+    ``` 
+
+  ## Enum Experimentation
+1. Open *IceCream.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
+    - Add the following code to the end of the main() method. What is the result and why?  
+    ```
+    boolean result = Flavor.HUCKLEBERRY.ordinal() > Flavor.CHOCOLATE.ordinal();
+    System.out.printf("\n\n%s is greater than %s: %b\n",Flavor.HUCKLEBERRY, Flavor.CHOCOLATE, result);  
+    ```
+    - Modify the printf statement to use '%n' in place of '\n' as shown below. What is the difference between the %n format specifier and the \n escape character.   
+    ```
+    System.out.printf("%n%n%s is greater than %s: %b%n",Flavor.HUCKLEBERRY, Flavor.CHOCOLATE, result); 
+    ```
+
+
+
+
 
 
