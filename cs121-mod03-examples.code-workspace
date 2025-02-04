@@ -17,6 +17,9 @@
 		},
 		{
 			"path": "Enum"
+		},
+		{
+			"path": "DateFormatting"
 		}
 	],
 	"settings": {
