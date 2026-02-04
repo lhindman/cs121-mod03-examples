@@ -1,0 +1,32 @@
+{
+  "java.project.sourcePaths": [],
+  "java.project.outputPath": "",
+
+    /* ---- Editor-level suppression ---- */
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+  "editor.inlineSuggest.enabled": false,
+  "editor.parameterHints.enabled": true,
+  "workbench.editor.empty.hint": "hidden",
+    /* ---- GitHub Copilot settings ---- */
+  "github.copilot.enable": {
+  "*": true,
+  "markdown": false,
+  "plaintext": false,
+  "json": false,
+  "yaml": false
+  },
+  "github.copilot.inlineSuggest.enable": false,
+  "github.copilot.suggestionDelay": 75,
+  "github.copilot.advanced.enableTelemetry": false,
+    
+    /* ---- ChatGPT settings ---- */
+  "chat.openAIModel": "gpt-4o",
+  "chat.useAgentsMdFile": true,
+  "github.copilot.editor.enableCodeActions": false
+}
